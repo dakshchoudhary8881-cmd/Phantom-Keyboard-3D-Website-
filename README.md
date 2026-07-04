@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Phantom banner" width="100%" />
+<img src="./banner (2).svg" alt="Phantom banner" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=20&duration=2500&pause=800&color=FF3DAA&center=true&vCenter=true&width=650&lines=We+stripped+the+keyboard+to+its+molecular+core.;Pure+Sound.+Zero+Ping.;Gasket+Mounted.+Isolated." alt="typing tagline" />
 
