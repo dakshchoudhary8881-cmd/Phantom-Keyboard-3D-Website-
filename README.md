@@ -1,144 +1,92 @@
 <div align="center">
 
-# P H A N T O M
+<img src="./banner.svg" alt="Phantom banner" width="100%" />
 
-### Precision. Perfected.
+<img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=20&duration=2500&pause=800&color=FF3DAA&center=true&vCenter=true&width=650&lines=We+stripped+the+keyboard+to+its+molecular+core.;Pure+Sound.+Zero+Ping.;Gasket+Mounted.+Isolated." alt="typing tagline" />
 
-**An immersive 3D product experience for a precision-engineered mechanical keyboard.**
+<br><br>
 
-[Live Demo](https://phantom-keyboard-3-d-website.vercel.app/) · [Report Bug](#) · [Request Feature](#)
+[![Live Demo](https://img.shields.io/badge/live-demo-FF3DAA?style=for-the-badge&logo=vercel&logoColor=white)](https://phantom-keyboard-3-d-website.vercel.app/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#)
+[![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](#)
+[![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white)](#)
 
 </div>
 
----
+<br>
 
 ## Overview
 
-**Phantom** is a cinematic, scroll-driven product website built to showcase a premium mechanical keyboard through interactive 3D visuals, layered motion design, and a dark, high-contrast interface. The site is engineered to feel like an Apple-tier hardware launch page — every section reveals detail progressively as the user scrolls, echoing the "engineered down to the molecular core" positioning of the product itself.
-
-The goal wasn't just to display a keyboard. It was to make the *engineering* — the gasket mount, the switch stack, the acoustic foam layering — feel tangible before a single spec is read.
-
----
+**Phantom** is a cinematic, scroll-driven product site for a precision-engineered mechanical keyboard. An interactive 3D render anchors the experience, with each section — Design, Acoustics, Build, Products — revealing progressively as the user scrolls, turning a spec sheet into a narrative.
 
 ## ✨ Features
 
-- **Interactive 3D Hero** — A fully rendered keyboard model as the visual anchor of the landing page, with exploded-view keycap and switch elements in motion.
-- **Scroll-Driven Storytelling** — Sections reveal sequentially (Design → Acoustics → Build → Products) as the user scrolls, turning a spec sheet into a narrative.
-- **Multi-Page Architecture** — Dedicated routes for Home, Design, Features, Tech Specs, Gallery, Products, and Contact.
-- **Product Tiering** — Three-tier catalog structure (X75 flagship, Pro 96, Lite 60) supporting both live sales and pre-launch waitlisting.
-- **Dark, Branded Design System** — Consistent near-black background with a single accent color and condensed display type across every page.
-- **Fully Responsive** — Built mobile-first and tested across breakpoints.
-
----
+- Interactive 3D hero with exploded-view keycap and switch elements
+- Scroll-driven storytelling across Design → Acoustics → Build → Products
+- Multi-page architecture with dedicated routes per section
+- Three-tier product catalog (X75, Pro 96, Lite 60) supporting live sales and pre-launch waitlisting
+- Consistent dark, high-contrast design system across every page
+- Fully responsive, mobile-first build
 
 ## 🛠️ Tech Stack
 
-| Layer            | Technology                         |
-|-------------------|-------------------------------------|
-| Framework         | Next.js (App Router, TypeScript)   |
-| Styling           | Tailwind CSS                        |
-| 3D Rendering      | Three.js / React Three Fiber        |
-| Animation         | Framer Motion / GSAP (scroll-linked)|
-| Linting           | ESLint                              |
-| Deployment        | Vercel                              |
+| Layer        | Technology              |
+|--------------|--------------------------|
+| Framework    | Next.js (TypeScript)     |
+| Styling      | Tailwind CSS             |
+| 3D Rendering | Three.js                 |
+| Deployment   | Vercel                   |
 
-> Update this table to match your exact dependencies (check `package.json` for the animation and 3D libraries actually in use).
+## 🗺️ Pages
 
----
+<div align="center">
 
-## 🗺️ Site Map
+![Home](https://img.shields.io/badge/-Home-15161C?style=flat-square) ![Design](https://img.shields.io/badge/-Design-15161C?style=flat-square) ![Features](https://img.shields.io/badge/-Features-15161C?style=flat-square) ![Tech Specs](https://img.shields.io/badge/-Tech%20Specs-15161C?style=flat-square) ![Gallery](https://img.shields.io/badge/-Gallery-15161C?style=flat-square) ![Products](https://img.shields.io/badge/-Products-15161C?style=flat-square) ![Contact](https://img.shields.io/badge/-Contact-15161C?style=flat-square)
 
-| Route        | Purpose                                             |
-|---------------|------------------------------------------------------|
-| `/`           | Hero, product story, acoustics, build quality        |
-| `/design`     | Industrial design philosophy and materials            |
-| `/features`   | Feature breakdown (RGB, hot-swap, connectivity, etc.) |
-| `/tech-specs` | Full technical specification sheet                    |
-| `/gallery`    | Visual showcase / lifestyle imagery                   |
-| `/products`   | Product catalog — X75, Pro 96, Lite 60                |
-| `/contact`    | Contact and support                                    |
-
----
-
-## 🎨 Design System
-
-```
-Background   #050507 — #0A0B0F   (near-black base)
-Accent       #FF4500              (signature highlight)
-Typography   Bebas Neue / condensed sans — headings
-             System sans — body copy
-```
-
-Design principles: high contrast, generous negative space, motion used to reveal information rather than decorate it.
-
----
+</div>
 
 ## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+
-- npm / pnpm / yarn
-
-### Installation
 
 ```bash
 git clone https://github.com/<your-username>/phantom-keyboard-3d-website.git
 cd phantom-keyboard-3d-website
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-Visit `http://localhost:3000` to view the site locally.
-
-### Production Build
-
-```bash
-npm run build
-npm run start
-```
-
----
+Visit `http://localhost:3000` to view it locally.
 
 ## 📁 Project Structure
 
 ```
-DEMO 3D WEBSITE/
-├── public/               # Static assets (models, images, fonts)
-├── src/                  # Application source
-│   ├── app/              # Next.js App Router pages
-│   ├── components/       # Reusable UI + 3D components
-│   └── styles/           # Global styles
-├── next.config.ts
-├── tsconfig.json
-├── package.json
-└── README.md
+src/
+├── app/            # Next.js App Router pages
+├── components/     # UI + 3D components
+└── styles/         # Global styles
+public/             # Static assets (models, images, fonts)
 ```
 
----
+## 🎨 Design Tokens
+
+```
+Background   #050507 — #0A0B0F
+Accent       #FF3DAA / #2DE2E6
+Type         Bebas Neue
+```
 
 ## 📌 Roadmap
 
-- [ ] Waitlist capture for Pro 96 and Lite 60 pre-orders
+- [ ] Waitlist capture for Pro 96 / Lite 60
 - [ ] Interactive switch selector (live spec/price swap)
 - [ ] Functional footer links (Accessories, Warranty, FAQ)
-- [ ] Newsletter signup integration
-- [ ] Performance pass on 3D asset load times
 
----
-
-## 📄 License
-
-This project is proprietary. All rights reserved © 2026 Phantom Keyboards.
-
----
+<br>
 
 <div align="center">
 
-Built by **Daksh** — [Portfolio](#) · [GitHub](#) · [LinkedIn](#)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050507,100:15161C&height=90&section=footer" width="100%" />
+
+Built by **Daksh**
 
 </div>
