@@ -7,6 +7,11 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 export const metadata: Metadata = {
   title: "PHANTOM | Precision. Perfected.",
   description: "Premium Mechanical Keyboard Engineered for Creators and Gamers.",
+  icons: {
+    icon: "/favicon.webp",
+    shortcut: "/favicon.webp",
+    apple: "/favicon.webp",
+  },
 };
 
 import Navbar from "@/components/Navbar";
