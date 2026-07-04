@@ -1,0 +1,22 @@
+*.node_modules/
+node_modules/
+.env
+.env.local
+.env.*.local
+.vercel
+.next/
+out/
+build/
+*.log
+.DS_Store
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
